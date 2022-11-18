@@ -1,0 +1,298 @@
+.ngx-notify.ngx-notify-stagemode {
+    display: none;
+}
+
+.appContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputWrapper input{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.column{
+    width: 50%;
+    padding: 20px;
+}
+
+
+.xRow-1col_full .xCustom-intro .xComponentInner {
+    padding-left: 35px;
+}
+
+
+
+input:focus{
+    border-color: #BD001F;
+}
+
+button,
+button:hover,
+button:focus,
+button:visited {
+    background-color: #BD001F;
+    opacity: 1;
+    padding: 10px 20px
+}
+
+button:disabled{
+    background-color: #E1E1E1;
+}
+
+.inputWrapper label{
+    display: block;
+}
+
+.inputWrapper.thirds input{
+    width: 30%
+}
+
+.inputWrapper.thirds button{
+    width: 30%;
+    display: inline-block;
+}
+
+
+
+.inputWrapper.halfs input{
+    width: 30%;
+
+}
+
+.inputWrapper.halfs button{
+    display: inline-block;
+}
+
+.periodType{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 0; 
+    border: 1px solid #E1E1E1;
+    padding: 30px 40px !important;
+ }
+ 
+ .periodType:disabled{
+    background-color: #E1E1E1 !important;
+ }
+
+ span.pallet{
+    background-color: #BD001F;
+    width: 10px;
+    height: 10px;
+    display:inline-block;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+span.pallet.grey {
+    background-color: #E1E1E1;
+}
+
+span.pallet.black {
+    background-color: #262626;
+}
+
+span.pallet.green {
+    background-color: #C80F2E;
+}
+
+.fakeInput {
+    width: 100%;
+    background-color: grey;
+    padding: 10px 20px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.legend{
+    list-style:none;
+}
+
+@media (max-width: 520px){
+
+    .appContainer{
+        flex-wrap: wrap;
+    }
+    .column{
+        width: 100%;
+    }
+}
+
+/* Studio PAW Styling */
+.xPageHeader {
+    display: none;
+}
+body {
+    background-size: 40%;
+    background-position: 100% 100%;
+}
+.column {
+    padding: 30px;
+    border: 1px solid #e7e7e7;
+    margin: 10px;
+    background-color: #fff;
+	  -webkit-border-radius: 15px;
+	  -moz-border-radius: 15px; 
+    border-radius: 15px;
+    box-shadow: 0px 0 10px #e7e7e7;
+}
+input, textarea {
+    border: #e7e7e7 1px solid;
+}
+.fakeInput {
+    background-color: #e7e7e7;
+    font-family: 'RocketSans-Bold';
+}
+.inputWrapper {
+    margin-bottom: 30px;
+}
+.totalWrapper .inputWrapper {
+    margin-bottom: 0;
+}
+.periodType {
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px; 
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+    padding: 31px 20px !important;
+    vertical-align: top;
+}
+.inputWrapper.thirds input {
+    width: 38%;
+}
+ul.legend {
+    margin-bottom: 20px;
+}
+.inputWrapper.halfs input {
+    width: 47%;
+}
+.inputWrapper.halfs button {
+    display: inline-block;
+    width: 47%;
+    padding: 32px;
+    vertical-align: top;
+}
+input#interestRate {
+    margin-right: 5%;
+}
+a:focus, button:focus, input:focus, textarea:focus {
+    border-color: #BD001F;
+}
+
+/* Intro */
+.xCustom-intro {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.xCustom-intro .xComponentInner {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Footer */
+.xCustom-footerinfo img {
+    max-width: 60px;
+    margin-left: 30px;
+}
+.xCustom-footerinfo .xMediaContainer.xRenderEmbed {
+    width: 7%;
+}
+
+/* Tablet */
+@media only screen and (max-width: 900px) {
+h1 {
+    font-size: 32px;
+    font-size: 3.2rem;
+}  
+.inputWrapper input {
+    font-size: 3rem;
+}  
+.fakeInput {
+    font-size: 3rem;
+}
+.periodType {
+    padding: 20px 10px !important;
+    font-size: 16px;
+}  
+.inputWrapper.halfs button {
+    width: 46%;
+    padding: 20px;
+}
+input#interestRate {
+    padding-bottom: 15px;
+}  
+.inputWrapper.thirds input {
+    width: 30%;
+}  
+.xCustom-footerinfo .xMediaContainer.xRenderEmbed {
+    width: 14%;
+}
+  
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+body {
+    background: none;
+}
+.column {
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}  
+.inputWrapper.halfs button {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+input#interestRate {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inputWrapper {
+    margin-bottom: 10px;
+}
+.inputWrapper.thirds input {
+    width: 37%;
+}
+  
+/* Arrow */
+.column {
+    margin-bottom: 40px;
+}
+.column.one {
+    position: relative;
+}
+.column.one:after {
+    content: '';
+    width: 60px;
+    height: 30px;
+    background-image: url(https://a.wayin.com/themes/5355/163377/arrow-down.png);
+    position: absolute;
+    bottom: -30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 40%;
+}
+  
+/* Footer */
+.xCustom-footerinfo img {
+    max-width: 40px;
+    margin-left: 0;
+}
+.xCustom-footerinfo .xMediaContainer.xRenderEmbed {
+    width: 10%;
+    display: inline-block;
+	vertical-align: top;  
+}  
+.xCustom-footerinfo .xBodyContainer {
+    width: 70%;
+    display: inline-block;
+    margin-left: 10px;
+}  
+  
+}
