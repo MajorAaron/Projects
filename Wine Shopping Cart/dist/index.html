@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="baseStyles.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js" integrity="sha512-2V49R8ndaagCOnwmj8QnbT1Gz/rie17UouD9Re5WxbzRVUGoftCu5IuqqtAM9+UC3fwfHCSJR1hkzNQh/2wdtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="app.min.js" async defer onLoad="loadApp()"></script>
+
+    </head>
+    <body>
+        <div id="shoppingCart"></div>
+
+
+        <script>
+
+        function loadApp(){
+            BASEVUEAPP({
+                checkoutURL: "https://www.14hands.com/addtocart",
+                brandClass: "xCSM",
+                channelID: 5637146826,
+                oun: 510130130,
+                truncateCharNumber: 150,
+                productIds: [
+                    /*
+                        5637191890
+                    */
+                    ],
+                    categoryIds: [
+                        5637152078, 5637152079
+                    ],
+                    sortBy: "Name",
+                    itemsPerPage: 6,
+                    addToCartTime: 2000,
+                    onUpdate: function(){
+                    NGX.App.api.resizeParent()
+                    }
+                },{
+                    zeroItemsInCart: "You have zero items in your shopping cart.",
+                    homeCallout: {
+                        heading: "Make your selections below",
+                        byline: "",
+                        description: "pink color can range from a pale orange to a vivid near-purple, depending on the varietals used and wine-making techniques. The bung hole is the opening in a cask through which wine can be put in or taken out. The cabernet grape variety thrives in a variety of vineyard soil types."
+                    },
+                    cartCallout: {
+                        heading: "cart healine",
+                        byline: "cart byline",
+                        description: "pink color can range from a pale orange to a vivid near-purple, depending on the varietals used and wine-making techniques. The bung hole is the opening in a cask through which wine can be put in or taken out. The cabernet grape variety thrives in a variety of vineyard soil types."
+                    }
+                });		
+            }
+                
+        </script>
+
+    </body>
+</html>

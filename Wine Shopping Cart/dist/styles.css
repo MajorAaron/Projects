@@ -1,0 +1,686 @@
+
+.counter{
+     display:inline-block;
+}
+.counter .circle{
+     border: 1px solid #ad7b2e;
+     border-radius: 50%;
+     padding: 5px;
+     width: 25px;
+     height: 25px;
+     padding: 0px;
+     display: inline-block;
+     text-align: center;
+     font-size: 2rem;
+     cursor: pointer;
+}
+.counter .inputWrapper{
+     display: inline-block;
+     width: 20px;
+     height: 25px;
+     vertical-align: middle;
+}
+.counter input{
+     display: inline-block;
+     padding: 0;
+     text-align: center;
+     border: 0;
+}
+
+
+.cartItem .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartItem .counter{
+    vertical-align: middle;
+}
+.cartItem span.productInfo {
+    width: 30%;
+}
+.cartItem .total{
+    font-weight: bold;
+}
+.cartItem{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* ------------- ECOMMERCE MODULE ------------- */
+
+/* AM */
+.cart{
+	padding-bottom: 20px !important;
+}
+
+.removeItem{
+	cursor: pointer;
+}
+
+.toastMessage {
+    height: 25px;
+    margin-top: 3px;
+    text-align: center;
+  	position:relative;
+  	top:10px;
+}
+
+
+#app{
+	margin:50px 0;
+}
+
+.xPageHeader{
+	display:none;
+}
+/* text styles */
+.xHeading{
+	font-family:Span;
+  	font-weight:700;
+}
+
+h2{
+ font-style:initial;
+}
+
+.xClassCallout{
+	padding:0px 20px 20px 20px;
+  
+}
+
+.xClassCallout h1{
+	font-size:40px;
+  	text-transform:capitalize;
+}
+
+.xClassCallout h2{
+  	margin-bottom:15px;
+  	text-transform:capitalize;
+}
+
+.xClassCallout p{
+	font-size:16px;
+  	color:#2c2626; 
+}
+
+.details h1.xByline{
+  font-family:GothamBook;
+	font-size:11px;
+  	text-transform:uppercase;
+  	letter-spacing:.7px;
+  	font-style:initial;
+  	margin-bottom:5px;
+  	text-align:left;
+}
+
+.details h2.xHeading{
+	font-size:19px;
+  	text-transform:none;
+  	margin-bottom:10px;
+    text-align: left;
+  	line-height:1.3;
+}
+
+.details .xCopy{
+	font-size:13px;
+  	line-height:1.5;
+}
+
+.details .price{
+	font-size:16px;
+  	font-family:Gotham-Medium;
+}
+
+.details .price{
+	font-size:16px;
+  	font-family:Gotham-Medium;
+}
+
+.counter{
+	font-size:16px;
+  	font-family:Gotham-Medium;
+}
+
+.counter .inputWrapper{
+  	position:relative;
+  	bottom:2px;
+}
+
+.counter span.circle{
+	font-size:18px;
+}
+
+.wineItemContainer .xButton{
+	font-size:16px;
+}
+
+.closeCart{
+font-size: 48px;
+}
+
+.cartTotal{
+	font-size:20px;
+  	margin-bottom:20px;
+}
+
+.cartDisclaimer{
+font-size:14px;
+}
+
+.removeItem{
+	font-size:18px;
+  	font-family:Gotham-Medium;
+  	margin-top:2px;
+  	position:relative;
+  	top:2px;
+}
+
+
+/* header copy */
+
+.xClassCallout{
+	max-width:700px;
+  	margin:auto;
+}
+
+
+/* items */
+.wineList>ul{
+	display:flex;
+  	justify-content:space-around;
+  	flex-wrap:wrap;
+  	margin-bottom:10px;
+}
+ 
+.wineList ul li.wineItemContainer{
+	padding:30px 20px;
+  	border: solid 0px rgba(0,0,0,0);
+  	background-color:rgb(241 238 233 / 40%);
+  	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  	margin-bottom:10px;
+}
+
+
+.wineItemContainer .detailsContainer .details{
+    min-height: 250px;
+}
+
+.detailsContainer{
+	display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  	height:80%;
+}
+
+
+.wineList .wineItemContainer .xMediaContainer {
+    width: 25%;
+}
+
+.buttonContainer{
+	height:20%;
+}
+
+.wineItemContainer .xButton{
+    color: #fff; 
+    background-color: #163136; 
+    border-radius: 50px;
+  	margin-top:20px;
+}
+
+.wineItemContainer .xButton:hover{
+	background-color: #aa9446;
+  	color:#fff;
+}
+
+.wineItemContainer .xButton span{
+	padding:12px 20px;
+  	letter-spacing:1.7px;
+}
+
+.wineItemContainer .detailsContainer .xMediaContainer img{
+	padding: 4px;
+    max-height: 250px;
+}
+
+.counter input{
+    margin-top: 2px;
+    background: rgba(0,0,0,0);
+}
+
+.counter span.circle{
+    background-color:#aa9446;
+  	border: solid 1px #aa9446;
+    	color:#fff; 
+
+}
+
+.counter span.circle:hover{
+	background-color:#163136;
+  	color:#fff;
+  border: solid 1px #163136;
+}
+
+.tastingNotes.xCopy{
+	margin-bottom:20px;
+  	text-align:left;
+}
+
+.details .xCopy{
+	text-align:left;
+}
+
+	
+/* cart icon*/
+
+ #app .cartIcon{
+    top: 10px;
+    right: 10px;
+    width: 90px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color:#163136;
+    border-radius: 20px ;
+   	color:#fff;
+   
+  }
+
+ #app .cartIcon > *{
+	display: inline-table;
+    vertical-align: middle;
+  }
+
+#app .cartIcon img{
+    padding-right: 5px;
+}
+
+
+
+
+/* paging */
+
+.paginationContainer{
+	margin-top:20px;
+}
+
+.paginationContainer ul.pager li{
+	padding:3px 10px;
+}
+
+.previous{
+margin-right: 10px;
+}
+
+.next{
+margin-left: 10px;
+}
+
+
+li.page-item:after{
+	font-weight:800;
+}
+
+li.page-item.first:before {
+font-size: 24px;
+    content: '«';
+    font-family: socialvetica;
+    position: relative;
+    top: 1px;
+    left: -6px;
+}
+
+/* cart */
+.cartContainer .cart .closeCart{
+    top: 30px;
+    right: 10px;
+      color: #163136;
+  	padding: 0 15px;
+}
+
+.cart{
+	padding:0 20px;
+}
+
+.cart .xClassCallout{
+	padding:20px 0;
+}
+
+.cartTotal{
+  	margin-bottom:20px;
+  	font-size:20px;
+  	    font-family: Gotham-Medium;
+}
+
+.cartItem span.total{
+	font-weight:normal;
+  font-family: Gotham-Medium;
+}
+
+.cartDisclaimer{
+font-size:14px;
+}
+
+.cartItem .details{
+	width:100%;
+}
+
+.cartContainer .cartItem span.productInfo{
+	width:40%;
+}
+
+.cartContainer span.actionContainer{
+	width:22%;
+  	text-align:right;
+}
+
+.cartContainer .price, .cartContainer .total{
+	width:15%;
+  	text-align:right;
+}
+
+.cartContainer{
+	padding:40px 0;
+}
+
+.cartContainer .price{
+	font-family: Gotham-Medium;
+}
+
+.xButton.xToCheckout{
+    background-color: rgba(0,0,0,0);
+    background-color: #163136; 
+    border-radius: 50px;
+  	color:#fff;
+}
+
+.xButton.xToCheckout:hover{
+	background-color: #aa9446;
+  	color:#fff;
+}
+
+.cartContainer .buttonContainer{
+	margin-top:25px;
+}
+
+.removeItem{
+	margin-left:4px;
+}
+
+.xButton.xBackToCart span{
+	padding: 15px 30px 12px 30px;
+  	letter-spacing:1.7px;
+  	font-size:14px;
+  	margin-left:12px;
+}
+
+.xButton.xBackToCart span:before{
+    content: '\276E';
+    position: absolute;
+    margin-left: -20px;
+    font-size: 24px;
+    margin-top: -4px;
+    font-weight: 400;
+}
+
+.xButton.xToCheckout span:after{
+content:'\276F';
+  position:absolute;
+      margin-left: 10px;
+    font-size: 24px;
+    margin-top: -4px;
+    font-weight: 400;
+}
+
+.xButton.xBackToCart{
+    background-color:#aa9446;
+  	color:#fff;
+    border-radius: 50px;
+}
+.xButton.xBackToCart:hover{
+  background-color:163136;
+}
+
+.xButton.xToCheckout span{
+  padding: 15px 30px 12px 30px;
+    	letter-spacing:1.7px;
+  	font-size:14px;
+  margin-right:10px;
+}
+
+/* mobile */
+@media screen and (max-width:600px){
+  
+  #app .cartIcon {
+    top: 15px;
+  }
+  
+  #app {
+    margin: 75px 0;
+}
+  
+  .cartContainer .cartItem span.productInfo{
+	width:100%;
+}
+  
+  .cartContainer span.actionContainer{
+  	width:35%;
+  }
+  
+  .cartContainer .total{
+  	width:22%;
+  }
+  
+  .cartItem .details{
+  	margin-bottom:15px;
+	flex-wrap:wrap;
+  }
+  
+ #app .cartContainer{
+    margin-top: -70px;
+  }
+
+  .cartContainer .buttonContainer{
+  	flex-wrap:wrap;
+  }
+  
+  .xClassCallout{
+  margin-bottom:15px;
+  }
+  
+  .wineList ul li.wineItemContainer{
+  	width:100%;
+	margin:7px;
+	    padding: 30px 10px;
+  }
+  
+  .wineList>ul{
+  	flex-wrap:wrap;
+	padding:0;
+  }
+  
+  .cartContainer .buttonContainer{
+  	flex-direction:column;
+  }
+}
+
+/* tablet */
+@media screen and (min-width:600px) and (max-width:900px){
+	  .wineList ul li.wineItemContainer{
+  	width:47%;
+		margin-bottom:15px;
+  }
+  
+    .wineList>ul{
+  	flex-wrap:wrap;
+	padding:0 15px;
+  }
+}
+
+/*AM*/
+
+.toastMessage {
+    height: 25px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* PAGES */
+
+li.page-item.next:after {
+    font-size: 12px;
+    content: '>';
+    font-family: socialvetica;
+    position: relative;
+    left: 3px;
+}
+
+li.page-item.last:after {
+font-size: 24px;
+    content: '»';
+    font-family: socialvetica;
+    position: relative;
+    top: 1px;
+    left: 6px;
+}
+ul.pager {
+    list-style: none;
+  	text-align: right;
+    padding: 0 20px;
+    font-family: gotham-medium;
+    /* display: inline-block; */
+}
+
+ul.pager li {
+    display:inline-block;
+    cursor: pointer;
+  	font-weight:normal;
+}
+
+li.page-item.active, .page-item:hover {
+    color:#aa9446;
+}
+
+/* App callouts*/
+
+.xClassCallout{
+    margin-bottom: 30px;
+}
+
+.xClassCallout > * {
+    text-align: center;
+}
+
+/*Truncate button*/
+
+.tastingNotes button {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    background: none;
+    color: #163136;
+  	font-weight:bold;
+}
+/* ------------- END ECOMMERCE MODULE ------------- */
+
+
+/*
+ .cartContainer {
+     position: absolute;
+     top: 0;
+     right: 0;
+     padding-top: 40px;
+ }
+*/
+.cartContainer .closeCart,
+  .cartContainer .cartIcon{
+     cursor: pointer;
+     position: absolute;
+     top: 0;
+     right: 0;
+}
+.cartContainer .buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartContainer.open {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 200;
+}
+.cartContainer .cartDisclaimer,
+ .cartContainer .cartTotal{
+    width: 100%;
+    text-align: right;
+}
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+li.wineItemContainer{
+    list-style: none;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+.wineItemContainer .actionContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.wineItemContainer .xMediaContainer{
+    display: inline-block;
+    width: 30%;
+}
+.wineItemContainer .details{
+    display: inline-block;
+    width: 65%;
+}
+.wineItemContainer .xMediaContainer img{
+    padding: 9px;
+    max-height: 200px;
+    vertical-align: top;
+}
+.wineItemContainer .xButton{
+    width: 100%;
+}
+
+
+
+
+#app{
+  position: relative;
+}
+
